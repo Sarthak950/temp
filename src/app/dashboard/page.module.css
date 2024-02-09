@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.bodyCon {
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+
+.questCon {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  height: 100%;
+}
+
+.questHeadingCon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questHeading {
+  font-family: 'Iceland';
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.questCaption {
+  font-family: 'Iceland';
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-top: 3px;
+  opacity: 0.5;
+}
+.quests {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 30px; /* Gap between rows */
+  grid-column-gap: 20px; /* Gap between columns */
+  padding-top: 1rem;
+  overflow-x: scroll;
+  height: 60vh;
+  scrollbar-width: none;
+}

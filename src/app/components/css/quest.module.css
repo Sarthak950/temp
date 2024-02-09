@@ -1,0 +1,84 @@
+.questCon {
+  /* background: blue; */
+  /* padding-left: 10px; */
+}
+.questCon > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.questType {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  padding-block: 5px;
+  mask: url('/mask.png');
+  mask-size: cover;
+  mask-position: right;
+  mask-repeat: no-repeat;
+}
+.questCaption {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-top: 3px;
+  opacity: 0.5;
+  font-family: 'Iceland';
+  
+  text-transform: uppercase;
+}
+.questHeading {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: 'Iceland';
+  text-transform: uppercase;
+
+  margin-top: 2rem;
+}
+.questName {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary-blue);
+}
+
+.goal {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: 'Iceland';
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.questGoal {
+  font-size: 0.95rem;
+  line-height: 1rem;
+  font-family: 'Iceland';
+  opacity: 0.6;
+
+  text-transform: uppercase;
+}
+
+.rewards {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: 'Iceland';
+  text-transform: uppercase;
+  margin-top: 4rem;
+  margin-bottom: 10px;
+}
+.questRewards {
+  display: flex;
+  gap: 1rem;
+}
+.questRewards > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rewardPoints {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-family: 'Iceland';
+  text-transform: uppercase;
+  opacity: 0.6;
+}

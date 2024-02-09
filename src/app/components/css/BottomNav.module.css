@@ -1,0 +1,11 @@
+.navCon {
+  position: absolute;
+  bottom: 0;
+  right: 50vw;
+
+  display: flex;
+  
+  gap: 1rem;
+
+  transform: translateX(50%);
+}

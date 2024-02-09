@@ -1,0 +1,35 @@
+.soundControl {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.soundControl button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-blue);
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.soundControl button:hover {
+  text-shadow: 0 0 5px var(--primary-blue);
+}
+
+.soundControl>button>img {
+  border: 1px solid var(--primary-blue);
+}
+.dark {
+  opacity: 0.6;
+}

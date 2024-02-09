@@ -1,0 +1,53 @@
+.navComponent {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid #19191b;
+}
+
+.navComponent>h1 {
+  font-size: 1rem;
+  background: #19191b;
+  padding-block: 0.3rem;
+  text-transform: uppercase;
+  padding-left: 0.7rem;
+  mask: url("/mask.png") no-repeat right/cover;
+}
+
+.navComponent>p {
+  font-size: 0.8rem;
+  padding-left: 0.7rem;
+
+  text-transform: uppercase;
+
+  background-color: rgba(25, 25, 27, 0.5);
+  height: 100%;
+  padding-top: 0.5rem;
+  font-family: "Iceland";
+}
+
+.hover:hover {
+  border-color: #216c99;
+}
+
+.hover:hover>h1 {
+  background: #174b6c;
+}
+
+.hover:hover>p {
+  background: rgba(33, 108, 153, 0.5);
+}
+
+.current {
+  border-color: #ff0000;
+}
+
+.current>h1 {
+  background: #b20001;
+}
+
+.current>p {
+  background-color: rgba(178, 0, 1, 0.5);
+}

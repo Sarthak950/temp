@@ -1,0 +1,29 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 0.15rem;
+}
+
+:root {
+  --background-color: #000003;
+  --text-color: #ffffff;
+  --primary-green: #7dff68;
+  --primary-blue-dark: #216c99;
+  --primary-blue: #3a8bd5;
+  --primary-blue-transparent: #216c9911;
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 100vw;
+  height: 100svh;
+  overflow: hidden;
+}

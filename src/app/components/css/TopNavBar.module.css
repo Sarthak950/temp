@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.topNav {  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+
+.leftNav,
+.rightNav {
+  display: flex;
+  gap: 4rem;
+}
+
+.leftNav>div,
+.rightNav>div {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+.leftNav>div>h1 {
+  color: var(--primary-green);
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.leftNav>div>h2 {
+  font-size: 1rem;
+  opacity: 0.6;
+}
+
+.rightNav>div>h1 {
+  font-family: "Iceland";
+  font-size: 1.3rem;
+}
+
+.rightNav>div>h2 {
+  font-family: "Iceland";
+  font-size: 1.3rem;
+  opacity: 0.6;
+}

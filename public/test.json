@@ -1,0 +1,105 @@
+{
+  "quests": [
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#216C99",
+      "name": "Connect Discord",
+      "goal": "JOIN OUR DISCORD AND DROP A GM IN THE GM CHAT!",
+      "rewards_1": "5",
+      "rewards_2": "25"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#216C99",
+      "name": "Explore Forums",
+      "goal": "VISIT OUR FORUMS AND PARTICIPATE IN A DISCUSSION",
+      "rewards_1": "10",
+      "rewards_2": "50"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+
+      "color": "#216C99",
+      "name": "Complete Tutorial",
+      "goal": "FINISH THE TUTORIAL TO UNLOCK ADDITIONAL FEATURES",
+      "rewards_1": "8",
+      "rewards_2": "40"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+
+      "color": "#216C99",
+      "name": "Submit Feedback",
+      "goal": "PROVIDE US WITH YOUR VALUABLE FEEDBACK ON THE PLATFORM",
+      "rewards_1": "12",
+      "rewards_2": "60"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#216C99",
+      "name": "Connect Discord",
+      "goal": "JOIN OUR DISCORD AND DROP A GM IN THE GM CHAT!",
+      "rewards_1": "5",
+      "rewards_2": "25"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#21992D",
+      "name": "Explore Forums",
+      "goal": "VISIT OUR FORUMS AND PARTICIPATE IN A DISCUSSION",
+      "rewards_1": "10",
+      "rewards_2": "50"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#21992D",
+      "name": "Complete Tutorial",
+      "goal": "FINISH THE TUTORIAL TO UNLOCK ADDITIONAL FEATURES",
+      "rewards_1": "8",
+      "rewards_2": "40"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#BCCC00",
+      "name": "Submit Feedback",
+      "goal": "PROVIDE US WITH YOUR VALUABLE FEEDBACK ON THE PLATFORM",
+      "rewards_1": "12",
+      "rewards_2": "60"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#BCCC00",
+      "name": "Submit Feedback",
+      "goal": "PROVIDE US WITH YOUR VALUABLE FEEDBACK ON THE PLATFORM",
+      "rewards_1": "12",
+      "rewards_2": "60"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#CC8600",
+      "name": "Submit Feedback",
+      "goal": "PROVIDE US WITH YOUR VALUABLE FEEDBACK ON THE PLATFORM",
+      "rewards_1": "12",
+      "rewards_2": "60"
+    },
+    {
+      "state": "pending",
+      "type": "type1",
+      "color": "#CC8600",
+      "name": "Submit Feedback",
+      "goal": "PROVIDE US WITH YOUR VALUABLE FEEDBACK ON THE PLATFORM",
+      "rewards_1": "12",
+      "rewards_2": "60"
+    }
+  ]
+}
